@@ -34,8 +34,6 @@ jobs:
     # Устанавливаем Python с помощью action
     - name: Set up Python
       uses: actions/setup-python@v4
-      with:
-        python-version: 3.12
     # В action setup-python@v4 передаём параметр — версию Python
       with:
         python-version: 3.12
